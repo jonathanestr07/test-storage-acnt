@@ -13,7 +13,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "rg-storage-loop-example"
+  name     = "rg-storage-loop-example-v2"
   location = "East US"
 }
 
