@@ -18,7 +18,7 @@ variable "storage_accounts" {
     }
     "prod" = {
       location         = "Central US"
-      account_tier     = "Premium"
+      account_tier     = "Standard"
       replication_type = "ZRS"
     }
   }
